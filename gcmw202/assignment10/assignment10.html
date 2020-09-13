@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10 Advanced Selectors and Flexible Images</title>
+    <style>
+        .column {
+            width: 33.33%;
+            display: flexbox;
+            float: right;
+        }
+        .column > img:first-child {
+            max-width: 80%;
+            margin: auto;
+            padding-top: 50%;
+        }
+
+        #container {
+            height: 1000px;
+            width: 95%;
+            background-color: white;
+            margin: auto;
+            text-align: center;
+            border-radius: 30px;
+        }
+        body {
+            background-color: black;
+        }
+        header {
+            font-size: 250%;
+            padding-top: 10%;
+            font-weight: bold;
+            margin-bottom: -10%;
+            
+        }
+        .column > p:last-child {
+            color: red;
+        }
+        #content > p:last-child::first-letter {
+            font-size: 300%;
+            color: red;
+        }
+        p {
+            font-size: 130%;
+        }
+        #content > p:last-child {
+            padding: 10%;
+            line-height: 200%;
+        }
+    </style>
+</head>
+<body>
+    <div id='container'>
+        <header>
+            Find New Amazing Products Today!
+        </header>
+        <div id='content'>
+            <div class="row">
+                <div class="column">
+                    <img src='https://static.bhphoto.com/images/images500x500/1538582798_1436638.jpg'>
+                    <p>Canon EOS Camera</p>
+                    <p>Price: $199.00</p>
+                </div>
+                <div class="column">
+                    <img src='https://static.bhphoto.com/images/images500x500/1570039800_1506701.jpg'>
+                    <p>HP Envy Laptop</p>
+                    <p>Price: $299.00</p>
+                </div>
+                <div class="column">
+                    <img src='https://outlettec.com/wp-content/uploads/2018/06/nintendo-switch-console-500x500.jpg'>
+                    <p>Nintendo Switch</p>
+                    <p>Price: $399.00</p>
+                </div>
+            </div>
+            <p>Trying to find the best tech for yourself or a loved one? Look no further! All the latest gear you can find is on this single platform. We also provide the most recent tech news about the world's ideal (and once in a while most noticeably terrible) equipment, applications, and substantially more. From top organizations like Google and Apple to small new companies competing for your consideration, Bryan's Tech has the most recent in what makes a difference in innovation every day.</p>
+        </div>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>

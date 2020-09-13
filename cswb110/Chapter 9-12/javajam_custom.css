@@ -1,0 +1,229 @@
+/*week 11 - changed size and placement of music players*/
+/*week 12 - created and moved shop to right of contact form*/
+
+.formItem {
+	padding: 5px;
+}
+
+/*week 9 - center form information*/
+#contact {
+	overflow: auto;
+	float: left;
+	margin-left: 25%;
+	height: 400px;
+}
+
+/*week 9 - adding custom email form*/
+form {
+	padding: 2em;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 1em;
+	color: white;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+#mySubmit {
+	margin-left: 9.5em;
+	margin-top: 2em;
+}
+
+/*Week 4 added background*/
+/*week 4 color scheme updated*/
+body { 
+	color: #221811;
+	font-family: Arial;
+	background-image: url('https://cdn.wallpapersafari.com/6/55/XukfPK.jpg'); /*https://jooinn.com/images/grey-metal-background.jpg*/
+	background-size: 100% 100%;
+}
+/*week 3 color everything white with grey theme*/
+header {
+	text-align: center;
+	background-color: #4B4A4A;
+	color: white;
+}
+
+h1 {
+	line-height: 200%;
+	color: white;
+}
+
+h2 {
+	color: white;
+}	
+/*Week 6 changed color of titles*/
+/*week 6 added border placement and shadow behind titles*/
+h4 {
+	color: white;
+	background-color: grey;
+	padding: 3px;
+	border-bottom: black solid 1px;
+	border-right: black solid 1px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+p {
+	color: white;
+	margin-left: 2em;
+}
+
+ul li {
+	color: white;
+}
+
+nav {
+	text-align: center;
+	font-weight: bold;
+	background-color: #7B7878;
+	padding: 1px;
+	
+}
+
+nav a { /*Week 4 - removed underlined links in navigation*/
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+nav li {
+	display: inline-block;
+}
+/*Week 4 - navigation colors*/
+nav :link {
+	color: white;
+}
+
+nav :visited {
+	color: white;
+}
+
+nav :hover {
+	opacity: 1;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	font-size: small;
+	background-color: #4B4A4A;
+	text-align: center;
+	font-style: italic;
+}
+
+#wrapper {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url('https://i.pinimg.com/originals/78/65/cf/7865cfbac2e3d1b0d5723a6381a2f4c6.jpg');
+	background-size: 100% 100%;
+}
+/*Week 3 - added pictures and changed the height + rotation*/
+/*Week 3 - PERSONAL pages*/
+/*Week 5 - removed and added pictures on About Me Page*/
+
+#codingideas {
+	background-image: url('https://www.aryacollege.in/wp-content/uploads/2019/05/Learn-Programming-Languages-at-B-Tech-College-in-Jaipur.jpg');
+	background-size: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact {
+	text-align: center;
+}
+/*Week 5 all elements centered*/
+/*week 4 - added space on top and bottom of content*/
+/*week 8 changed size of table area and links*/
+nav ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+/*week 8 adding table rows and columns*/
+
+td {
+	padding: 10px;
+	color: white;
+}
+
+th {
+	text-align: center;
+	color: white;
+}
+
+table {
+	width: 120%;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+tr:nth-of-type(1), tr:nth-of-type(3), tr:nth-of-type(5) {
+	background-color: grey;
+}
+
+tr:nth-of-type(2), tr:nth-of-type(4), tr:nth-of-type(6) {
+	background-color: #4B4A4A;
+}
+
+#tablecontent {
+	color: white;
+	padding-right: 30%;
+	padding-left: 20%;
+}
+
+/*week 7 reformatting added for mobile*/
+/*week 7 reformatting table to fit on mobile screen*/
+@media only screen and (max-width: 768px) {
+	nav {
+		margin: 0;
+	}
+	
+	nav a {
+		display: block;
+		padding: 0.2em;
+		width: auto;
+		border-bottom: 1px solid #FEF6C2;
+	}
+	
+	nav li {
+		display: block;
+	}
+	
+	#codingideas {
+		width: 100%;
+	}
+	
+	#content {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 30%;
+		padding-right: 30%;
+		text-align: center;
+	}
+	
+	#tablecontent {
+		padding-right: 0;
+		padding-left: 0;
+		width: 83%;
+	}
+}
+
+
+
+
+
+

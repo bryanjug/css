@@ -1,0 +1,51 @@
+body { /*8/28/2019 5PM - set entire website background color*/
+	background-color: #FCEBB6;
+	color: #221811;
+	font-family: Arial;
+}
+
+header {
+	text-align: center;
+	background-color: #D2B48C
+}
+
+h1 {
+	line-height: 200%;
+}
+
+nav {
+	text-align: center;
+	font-weight: bold;
+}
+
+footer {
+	font-size: small;
+	background-color: #D2B48C;
+	text-align: center;
+	font-style: italic;
+}
+/*8/28/2019 6PM - made entire page centered and colored with added wrapper ID*/
+#wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*8/28/2019 9PM - added pictures and changed the height + rotation*/
+/*8/28/2019 9PM - PERSONAL pages*/
+#scooby {
+	height: 30%;
+	width: 30%;
+	transform: rotate(90deg);
+	margin: 50px;
+}
+
+#selfie {
+	height: 30%;
+	width: 30%;
+	transform: rotate(-90deg);
+	margin: 50px;
+}
+
+.contact {
+	text-align: center;
+}

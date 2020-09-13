@@ -1,0 +1,610 @@
+.signUp {
+    margin-top: 5% !important;
+}
+
+.login p {
+    margin-bottom: 10% !important;
+}
+
+.login input {
+    border: 1px solid #dbdbdb;
+}
+
+.username {
+    width: 90% !important;
+    margin-bottom: 5% !important;
+    padding: 2% !important;
+}
+
+.password {
+    width: 90% !important;
+    margin-bottom: 5% !important;
+    padding: 2% !important;
+}
+
+.fistLogin {
+    width: 20% !important;
+}
+
+.logoLogin {
+    width: 70% !important;
+}
+
+.login {
+    background-color: rgba(255,255,255,1);
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+    margin-top: 50% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-bottom: 50% !important;
+    text-shadow: none;
+}
+
+.loginContainer {
+    text-align: center !important;
+    background: url('images/login.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 3px 3px 6px black;  
+}
+
+.classes {
+    margin-bottom: 5% !important;
+    background-color: #e6e6f7;
+    padding: 4% !important;
+}
+
+.classesTitle, .classesTime, .classesParagraph {
+    margin-bottom: 1% !important;
+}
+
+.calendar .nav-item {
+    width: 14% !important;
+    text-align: center !important;
+}
+
+.calendar .nav-link {
+    border-radius: 0px !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.calendar .tab-content {
+    border-radius: 0px !important;
+    padding: 5% !important;
+}
+
+.missingClass {
+    text-align: center !important;
+}
+
+.calendar {
+    padding: 5% !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+
+.mission h4 {
+    margin-bottom: 2% !important;
+}
+
+.mission p {
+    margin-bottom: 20% !important;
+}
+
+.mission {
+    color: white !important;
+    text-align: center;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+
+.certContainerMain {
+    padding: 10% !important;
+}
+
+.certContainer {
+    background-color: #17176d !important;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 45% !important;
+}
+
+.certContainer p {
+    text-align: left !important;
+    top: 25% !important;
+    margin: 0 !important;
+}
+
+.certContainer img {
+    margin-top: -20% !important;
+    margin-bottom: -30% !important;
+}
+
+.footerNav a {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    color: white !important;
+}
+
+.footerNav {
+    text-align: center !important;
+    margin-top: 15% !important;
+    margin-bottom: -6% !important;
+}
+
+.nav-link {
+    transition-duration: 0.5s !important;
+}
+
+.homeButtons input {
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    background-color: #17176d !important;
+    color: white !important;
+    border: none !important;    
+    text-shadow: 3px 3px 2px black !important;    
+    transition-duration: 0.5s !important;
+}
+
+.homeButtons input:hover {
+    background-color: #3636aa !important;
+}
+
+.homeButtons {
+    margin-bottom: 10% !important;
+    text-align: center !important;
+}
+
+.testContainer {
+    padding-left:10% !important;
+    padding-right:10% !important;
+    padding-bottom: 10% !important;
+}
+
+.testimonialImage {
+    border-radius: 50% !important;
+    margin-top: -25% !important; 
+    border: solid 5px #17176d;
+    width: 50% !important;
+    margin-bottom: 5% !important;
+}
+
+.testimonials {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10% !important;
+}
+
+.testimonialBox {
+    background-color: white;
+	height: 85% !important;
+	border-radius: 30px 30px 0 30px;
+    box-shadow: 3px 3px 8px black;
+    width: 200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 10% !important;
+}
+
+.pin {
+    width: 15% !important;
+}
+
+.localGym {
+    color: white;
+    text-align: center;
+    padding-bottom: 1% !important;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+    margin-top: 2% !important;
+}
+
+.testimonialBottom {
+	background-color:#17176d;
+	border-radius: 0 0 0 30px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.testimonialBottom p {
+    padding-bottom: 10% !important;
+}
+
+.testimonialTop {
+    padding-top: 35% !important;
+    padding-bottom: 65% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.tryButton {
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+    background: none !important;
+    color: white !important;
+    text-shadow: 3px 3px 3px black !important;
+    transition-duration: 0.5s !important;
+}
+
+.tryButton:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    text-shadow: 3px 3px 6px black !important;
+
+}
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.homePage {
+    text-align: center !important;
+    color: white !important;
+    top: 30% !important;
+    padding-bottom: 20% !important;
+    padding-top: 25% !important;
+    background: url('images/curl.jpg');
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    text-shadow: 3px 3px 6px black;  
+}
+
+
+.classesPage {
+    text-align: center !important;
+    color: white !important;
+    padding-top: 30% !important;
+    padding-bottom: 25% !important;
+    background: url('images/classes.jpg');
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    text-shadow: 3px 3px 6px black;  
+}
+
+.footerForm {
+    margin-top: 5% !important;
+    padding-right: 2.5% !important;
+    padding-left: 2.5% !important;
+}
+
+.footerText {
+    padding: 10% !important;
+    padding-top: 5% !important;
+}
+
+.copyRight {
+    text-align: center !important;
+}
+
+#signIn {
+    background-color: #17176d !important;
+    color: white !important;
+    width: 40% !important;
+    border: none !important;    
+    text-shadow: 3px 3px 2px black !important;
+    padding-bottom: 2% !important;
+    padding-top: 1.5% !important;
+}
+
+#signIn:hover {
+    background-color: #3636aa !important;
+}
+
+#contactSubmit {
+    background-color: #17176d !important;
+    color: white !important;
+    width: 40% !important;
+    border: none !important;    
+    text-shadow: 3px 3px 2px black !important;
+    padding-bottom: 2% !important;
+    padding-top: 1.5% !important;
+}
+
+#contactSubmit:hover {
+    background-color: #3636aa !important;
+}
+
+#contactComment {
+    height: 150px !important;
+}
+
+.contactInput {
+    margin-bottom:2% !important;
+    width: 100% !important;
+    background-color: #5b5b5b !important;
+    border: none !important;
+    color: white !important;
+    padding-bottom: 2% !important;
+    padding-top: 2% !important;
+    padding-left: 3% !important;
+}
+
+.footer h4 {
+    margin-bottom: 5% !important;
+}
+
+.footer p {
+    margin-bottom: 8% !important;
+}
+
+.footer {
+    position: bottom !important;
+    padding-top: 5% !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    background: rgb(18,18,18);
+    background: linear-gradient(144deg, rgba(18,18,18,1) 0%, rgba(10,10,10,1) 53%, rgba(0,0,0,1) 100%);
+    margin-bottom: 0 !important;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+    margin-top: 5% !important;
+    color: white !important;
+}
+
+.navContact {
+    text-align: right !important;
+    padding-right: 5% !important;
+    color: white !important;
+    margin-left: 25% !important;
+}
+
+.navContact img {
+    margin-left: 2% !important;
+    margin-right: 0.5% !important;
+}
+
+.social {
+    width: 50% !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    clear: left;
+}
+
+.phone {
+    width: 4% !important;
+}
+
+.email {
+    width: 4.5% !important;
+    margin-left: 2% !important;
+}
+
+.navbar {
+    background-color: black !important;
+    position: fixed !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: rgb(0,0,0) !important;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,20,1) 53%, rgba(0,3,41,1) 100%) !important;
+}
+
+.fist {
+    width: 40px;
+}
+
+.logo {
+    width: 120px;
+}
+
+@media (min-width: 320px) {
+    
+    .fist {
+        width: 50px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+   
+}
+
+@media (min-width: 375px) {
+    
+    .fist {
+        width: 60px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+   
+    .homePage h4 {
+        margin-bottom: 1% !important;
+    }
+
+    .testimonialBox {
+        width: 250px !important;
+    }
+}
+
+@media (min-width: 580px) {
+    .pin {
+        width:10% !important;
+    }
+
+    .tryButton {
+        padding-right: 8% !important;
+        padding-left: 8% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 250px;
+    }
+    
+    .footer {
+        margin-top: 0 !important;
+    }
+
+    .homePage h4 {
+        font-size: 250% !important;
+    }
+    .tryButton {
+        font-size: 130% !important;
+    }
+    .testimonialBox1 {
+        height: 70% !important;
+    }
+
+    .certContainerMain {
+        padding: 2% !important;
+        margin-bottom: -15% !important;
+    }
+
+    .cert1 {
+        margin-bottom: 63% !important;
+    }
+
+    .cert2 {
+        margin-top: 17% !important;
+    }
+
+    .cert3 {
+        margin-bottom: 62% !important;
+    }
+
+}
+
+@media (max-width: 991px) { 
+    .navContact {
+        width: 0 !important;
+        color: black;
+        font-size: 0;
+        height: 0;
+    }   
+    .top-left {
+        width: 0;
+        color: black;
+        font-size: 0;
+        height: 0;
+    }
+
+    .top-right {
+        width: 0;
+        color: black;
+        font-size: 0;
+        height: 0;
+    }
+
+    .navLinks .nav-link {
+        padding-left: 5% !important;
+        padding-bottom: 1% !important;
+        padding-top: 1% !important;
+    }
+
+    .navLinks .nav-link:hover {
+        color: black !important;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-toggler {
+        margin-right: 2% !important;
+        padding-left: 1% !important;
+        padding-right: 1% !important;
+    }
+}
+
+@media (min-width: 991px) { 
+    .navLinks {
+        margin-left: 10% !important;
+    }   
+
+    .navLinks .nav-item {
+        margin-left: 6% !important;
+    }
+
+    .fist {
+        width: 80px;
+    }
+
+    .logo {
+        width: 450px !important;
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .homePage h4 {
+        font-size: 350% !important;
+    }
+    
+    .pin {
+        width:8% !important;
+    }
+    .testimonialBox {
+        width: 300px !important;
+    }
+
+    .phone {
+        width: 7% !important;
+    }
+
+    .email {
+        width: 8.5% !important;
+        margin-left: 2% !important;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    .testimonialBox1 {
+        height: 60% !important;
+    }
+
+    .fist {
+        width: 120px !important;
+    }
+    p, h1, h2, h3, h4, h5, h6, form, .navLinks {
+        font-size: 130% !important;
+    }
+}
+
+@media (min-width: 1500px) { 
+    .testimonialBox {
+        width: 350px !important;
+    }
+}
+
+@media (min-width: 2000px) { 
+    .testimonialBox {
+        width: 400px !important;
+    }
+}
+
+@media (min-width: 2500px) { 
+    .testimonialBox {
+        width: 450px !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    p, h1, h2, h3, h4, h5, form {
+        font-size: 160% !important;
+    }
+
+    .navLinks {
+        font-size: 190% !important;
+        margin-left: 5% !important;
+    }
+
+    .fist {
+        width: 190px !important;
+    }
+}

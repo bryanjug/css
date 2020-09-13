@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling forms</title>
+    <style>
+        #header {
+            height: 100px;
+            background-color: #170073;
+            color: white;
+            padding-top: 10%;
+            font-size: 20px;
+        }
+        #header ul {
+            list-style-type:none;
+        }
+        form {
+            margin: auto;
+        }
+        #additionalInfo {
+            width: 90%;
+            height: 250px;
+        }
+        h1 {
+            color: #170073;
+        }
+
+        legend { 
+            color:#494848;
+        }
+        body {
+            background-color: slategray;
+        } 
+        #container {
+            background-color: white;
+        }
+        #main {
+            padding: 5%;
+        }
+
+        input[type="submit"] {
+            border-radius: 10px;
+            border-color: #170073;
+            background-color: #170073;
+            color: white;
+            padding: 5px 25px 5px 25px;
+        }
+        .datePicker {
+            margin-left: 10%;
+        }
+
+        .nameCheck {
+            margin-left: 10%;
+        }
+
+        input[type="checkbox"] {
+            margin-left: 15%;
+            margin-top: 2%;
+        }
+
+        input[type="radio"] {
+            margin-left: 10%;
+        }
+        #additionalInfo {
+            margin-left: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div id='container'>
+        <div id='header'>
+            <nav>
+                <ul>
+                    <li>Welcome</li>
+                    <li>Create Account</li>
+                    <li>Recover Account</li>
+                </ul>
+            </nav>
+        </div>
+        <div id='main'>
+            <form action='#' method='post'>
+                <h1>Begin your WGU degree - Create Account</h1>
+                <fieldset>
+                    <legend>
+                        <span>
+                            <b>Personal Information - Section 1 of 2</b>
+                        </span>
+                    </legend>
+                    <section>
+                        <h4>
+                            Legal Name
+                        </h4>
+                        <p>
+                            Enter your legal name as it appears on official documents such as your government issued ID.
+                        </p>
+                        <label for='firstName'>First Name</label>
+                        <input type='text' id='firstName' name='firstName'>
+                        <br>
+                        <input type="checkbox" id="firstNameCheck" name="checkset" value="1" />
+                        <label for='firstNameCheck'>Check this box if you do not have a first name</label>
+                        <br>
+                        <br>
+                        <label for='middleName'>Middle Name</label>
+                        <input type='text' id='middleName' name='middleName'>
+                        <br>
+                        
+                        <input type="checkbox" id="middleNameCheck" name="middleNameCheck" value="1" />
+                        <label for='middleNameCheck'>Check this box if you do not have a middle name</label>
+                        <br>
+                        <br>
+                        <label for='lastName'>Last Name</label>
+                        <input type='text' id='lastName' name='lastName'>
+                        <br>
+                        <input type="checkbox" id="lastNameCheck" name="lastNameCheck" value="1" />
+                        <label for="lastNameCheck">Check this box if you do not have a last name</label>
+                        <br>
+                        <p>
+                            Do you have a previous name (such as a maiden name)?
+                        </p>
+                        <input id="radioPrevName1" name="radioPrevName" type="radio" value="1" />
+                        <label for="radioPrevName1">Yes</label>
+                        <input id="radioPrevName2" name="radioPrevName" type="radio" value="2" />
+                        <label for="radioPrevName2">No</label>
+                        <p>
+                            Do you have a preferred name that is different than your legal and/or previous name?
+                        </p>
+                        <input id="radioDifName1" name="radioDifName" type="radio" value="1" />
+                        <label for="radioDifName1">Yes</label>
+                        <input id="radioDifName2" name="radioDifName" type="radio" value="2" />
+                        <label for="radioDifName2">No</label>
+                        <br>
+                        <br>
+                    </section>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>
+                        <span>
+                            <b>Date of Birth - Section 2 of 2</b>
+                        </span>
+                    </legend>
+                    <section>
+                        <p>
+                            This data is utilized for assurance of minors in online exchange conditions, just as to separate between people having a similar name. It is additionally used to follow state and government law relating to residency, guardianship, and confirmation of minors to school. This data won't be utilized in settling on confirmations choices with the exception of as allowed by law.                        
+                        </p>
+                        <p>
+                            Date of Birth:
+                        </p>
+                        <section class='datePicker'>
+                            <label for="month">Month</label>
+                            <select id="month" name="month">
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>    
+                            <label for="month">Day</label>
+                            <select id="month" name="month">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>    
+                            <br>
+                            <br>
+                            <label for='year'>Year</label>
+                            <input type='text' id='year' name='year'>
+                        </section>
+                        <p>
+                            Confirm Date of Birth:
+                        </p>
+                        <section class='datePicker'>
+                            <label for="month">Month</label>
+                            <select id="month" name="month">
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>    
+                            <label for="month">Day</label>
+                            <select id="month" name="month">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>    
+                            <br>
+                            <br>
+                            <label for='year'>Year</label>
+                            <input type='text' id='year' name='year'>
+                        </section>
+                        <br>
+                        <br>
+                        <label for="additionalInfo">
+                            If you have any special information to include with your application (such as achievements or academic hardships), enter them here:
+                        </label>
+                        <br>
+                        <br>
+                        <textarea id="additionalInfo" name="additionalInfo" placeholder="Describe any additional info..."></textarea>
+                        <br>
+                    </section>
+                </fieldset>
+                <br>
+                <input type='submit' value='Apply Now'>
+            </form>
+        </div>
+        <div id='footer'>
+
+        </div>
+    </div>
+</body>
+</html>

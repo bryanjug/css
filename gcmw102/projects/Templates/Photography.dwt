@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Julia Stoferson Photography</title>
+<!-- TemplateEndEditable -->
+<link href="../module9/css/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<nav>
+  <p><a href="../module9/index.html">Home</a></p>
+  <p><a href="../module9/galleries.html">Galleries</a></p>
+  <p><a href="../module9/info.html">Info</a></p>
+</nav>
+<header><img src="../module9/images/jsp-logo.png" width="900" height="170" alt="Julia Stoferson Photography"/></header>
+<main><!-- TemplateBeginEditable name="PageContent" -->Content for New main Tag Goes Here<!-- TemplateEndEditable --></main>
+<footer>Site Design by Against The Clock, Inc.</footer>
+</body>
+</html>

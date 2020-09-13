@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main {
+	font-size: 12px;
+}
+main h2  {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	font-size: 16px;
+	color: rgba(0,90,171,1.00);
+}
+main h3 {
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+	font-size: 15px;
+}
+main p {
+	font-weight: 200px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 0px;
+	line-height: 20px;
+}
+main ul {
+	margin: 0px;
+	padding: 0px 0px 0px 35px;
+}
+main li {
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}

@@ -1,0 +1,229 @@
+body{
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	background-color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	margin: 0px 50px 0px 0px;
+	padding: 20px 0px 0px 0px;
+	height: 35px;
+	background-color:rgba(0,61,90,1.00);
+}
+nav ul {
+	margin: 0px 25px 0px 0px;
+	list-style-type: none;
+	float: right;
+	width: 900px;
+}
+nav ul li {
+	padding: 0px 12px 0px 10px;
+	height: 20px;
+	display: block;
+	float: right;
+	border-right: 1px solid #FFF;
+}
+nav ul li:first-of-type {
+	border-right: 0px;
+}
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color:rgba(230,185,121,1.00);
+}
+
+/*Following style formats the area on secondary pages where the logo sits above the colored bars*/
+
+#image-container {
+	margin: 0px;
+	padding: 0px;
+}
+
+#subpage-content {
+	width: 800px;
+	min-height: 350px;
+	background-color: rgba(255,255,255,0.79);
+	margin: 0px auto 0px auto;
+	padding: 15px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+#subpage-content img   {
+	padding: 0px;
+	background-color: rgba(100,100,100,1.00)
+}
+#subpage-content h1 {
+	font-size: 30px;
+	font-weight: 400;
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	text-indent: 0px;
+} 
+article.two-column {
+	margin: 0px 0px 0px 0px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+#subpage-content h2 {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	} 
+#subpage-content p {
+	margin: 0px 20px 10px 0px;
+	padding: 0px;
+}
+#subpage-content a {
+	color:#333333;
+	font-weight:bold;
+}
+#subpage-content ul {
+	margin: 0px 0px 15px 15px;
+	padding: 0px;
+}
+#subpage-content ul li  {
+	margin: 0px;
+	padding: 0px;
+}
+
+#subpage-logo {
+	width: 100%;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 15px 0px;
+	height: 90;
+	float: left;
+	background-color: #000;
+}
+
+/*Following style formats the main area on the home page only (with the background image and logo)*/
+
+#home-image {
+	background-image: url(../images/backgrounds/back-home.jpg);
+	background-position: 0 0%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 350px;
+}
+
+#home-logo {
+	width: 100%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+
+/*Following styles  format the bottom banner with the location and dates*/
+
+#bottom-banner {
+	background-color: rgba(255,255,255,0.90);
+	color: #000;
+	width: 100%;
+	border: 1px solid #707070;
+	padding: 0px;
+	overflow: auto;
+	margin-top: 10px 0px 0px 0px;
+	text-align: center;
+}
+#bottom-banner p {
+	display: block;
+	width: 33.3%;
+	float: left;
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	margin: 0px;
+	letter-spacing: 2px;
+	font-weight: 100;
+	text-transform: capitalize;
+}
+
+.backgroundcolor1 {
+	background-color:rgba(0,61,90,1.00);
+}
+.backgroundcolor2 {
+	background-color:rgba(138,78,140,1.00);
+}
+
+
+/*Following styles format the page footer*/
+
+footer {
+	width: 100%;
+	color: #999;
+	text-align: center;
+	font-size: 11px;
+	clear: both;
+	margin: 0px auto 10px auto;
+	padding:15px 0px 0px 0px;
+}
+footer p {
+	margin: 0px;
+	padding: 0px;
+}
+footer a {
+	color: #999;
+}
+.bkgFaqs {
+    background-image: url("../images/backgrounds/back-faqs.jpg");
+    background-size: cover;
+}
+.bkgFood {
+    background-image: url("../images/backgrounds/back-food.jpg");
+    background-size: cover;
+}
+.bkgSchedule {
+    background-image: url("../images/backgrounds/back-schedule.jpg");
+    background-size: cover;
+}
+.bkgSignup {
+    background-image: url("../images/backgrounds/back-mailing.jpg");
+    background-size: cover;
+}
+.img150px {
+    width: 150px;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+}
+
+.imgFloatRight {
+	float: right;
+}
+iframe {
+    width: 750px;
+    height: 350px;
+	border: 0px;
+}
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+.noClear {
+    width: auto;
+    margin-right: 10px;
+    clear: none;
+}

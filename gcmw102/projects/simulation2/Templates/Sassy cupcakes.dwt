@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Sassy Cupcakes Gourmet Bakery</title>
+<!-- TemplateEndEditable -->
+<link href="../simulation2/style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+
+<div id="header">
+  <img src="../simulation2/images/sassy-logo.png" width="301" height="171" alt="Sassy Cupcakes Gourmet Bakery" />
+</div>
+<div id="container">
+  <div id="left_column">
+	<ul>
+	  <li><a href="">Home</a></li>
+		<li><a href="">Everyday Favorites</a></li>
+		<li><a href="">Flavors of the Week</a></li>
+		<li><a href="">Custom Cakes</a></li>
+		<li><a href="">Special Events</a></li>
+		<li><a href="">Join the Club</a></li>
+	  </ul>
+	</div>
+<div id="right_column"><!-- TemplateBeginEditable name="Page Content" -->PageContent<!-- TemplateEndEditable --></div>
+  <div id="footer">
+    Copyright ©  <a href="../simulation2/index.html">Sassy Cupcakes Gourmet Bakery</a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>2column</title>
+<!-- TemplateEndEditable -->
+<link href="../module6/style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+  <div id="header"></div>
+	  <div>
+		<nav id="navigation">
+		  <p><a href="2column.html">Section 2</a></p>
+          <p><a href="homepage.html">Section 3</a></p>
+		</nav>
+	  </div>
+  <div id="img">
+	<h3>Fall / Winter Soup</h3>
+	<img src="../module6/images/Red_lentil_soup-6-1.jpg" width="680" height="1008" alt=""/> 
+	  </div>
+	  <!-- TemplateBeginEditable name="Text Editable Region" -->
+	  <main>
+	    <h2>America's Top Rated Soup Recipes</h2>
+	    <p>I love to make soup when this time of year comes around. The cold atmosphere and healthy food choice is sure to attract some for this season!</p>
+	    <h4>1. Curried Tomato Lentil Soup – </h4>
+	    <p>On the off chance that you open your storeroom, you'll likely discover every one of the fixings to this brilliant, warming, and weeknight-accommodating soup inside. It's one of our top choices and a fan top pick, as well!</p>
+	    <h4>2. Golden Turmeric Noodle Miso Soup – </h4>
+	    <p>This soup is ideal for the progress from winter to spring. It's made with a recuperating turmeric-ginger juices and crisp spring veggies like bok choy!</p>
+	    <h4>3. Carrot & Roasted Red Pepper – </h4>
+	    <p>A fan most loved from our first cookbook, this brilliant red soup is anything but difficult to make and brimming with flavor from fennel, carrots, broiled red peppers and crisp thyme.</p>
+	    <h4>4. Creamy Celery Root Cauliflower Soup – </h4>
+	    <p>In the event that you can discover a celery root in your market before winter's finished, you need to attempt this soup! Mushrooms, leeks, Dijon and white wine make it delightfully tart and flavorful.</p>
+      </main>
+	  <!-- TemplateEndEditable --></div>
+</body>
+<footer id="footer">
+	<li><a href="2column.html">Section 2</a></li>
+	<li><a href="homepage.html">Section 3</a></li> 
+</footer>
+</html>

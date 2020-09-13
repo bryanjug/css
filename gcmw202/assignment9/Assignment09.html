@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Tables</title>
+    <style>
+        #header {
+            background-color: rgba(49,0,71,0.50);
+        }
+        table {
+            border-collapse: collapse;
+            background-image: -webkit-linear-gradient(290deg,rgba(59,59,181,1.00) 0%,rgba(44,0,63,1.00) 100%);
+            background-image: -moz-linear-gradient(290deg,rgba(59,59,181,1.00) 0%,rgba(44,0,63,1.00) 100%);
+            background-image: -o-linear-gradient(290deg,rgba(59,59,181,1.00) 0%,rgba(44,0,63,1.00) 100%);
+            background-image: linear-gradient(160deg,rgba(59,59,181,1.00) 0%,rgba(44,0,63,1.00) 100%);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            width: 95%;
+            margin: auto;
+            box-shadow: 3px 3px 15px black;
+        }
+        td {
+            padding: 2%;
+        }
+        th {
+            padding: 3%;
+            font-size: 18px;
+        }
+        .dataPos {
+            padding-right: 20px;
+    		        
+        }
+        .user {
+             padding-left: 10px;
+             padding-right: 10px;
+    
+        }
+        .pass {
+			
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        tr:nth-of-type(3) {
+            background-color: rgba(255,255,255,0.11);
+        }
+        tr:nth-of-type(5) {
+            background-color: rgba(255,255,255,0.11);
+        }
+        tr:nth-of-type(7) {
+            background-color: rgba(255,255,255,0.11);
+        }
+        body {
+            background-color: indigo;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #container {
+            background-color: rgba(255,255,255,0.11);
+            border-radius:30px;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id='container'>
+        <h1>Sample User DataBase</h1>
+        <table>
+            <tr id='header'>
+                <td rowspan='7' id='titles'></td>
+                <th>#</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th># of Transactions</th>
+                <th>Account Type</th>
+            </tr>
+            <tr>
+                <td rowspan="1" class='dataPos'>1</td>
+                <td class='user'>RowleyJr</td>
+                <td class='pass'>dd999383</td>
+                <td class='transactions'>5</td>
+                <td class='accType'>member</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class='dataPos'>2</td>
+                <td class='user'>OptionalCarry</td>
+                <td class='pass'>gigench11</td>
+                <td class='transactions'>2</td>
+                <td class='accType'>member</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class='dataPos'>3</td>
+                <td class='user'>ImWalkingOnSunshine</td>
+                <td class='pass'>softbear1223</td>
+                <td class='transactions'>1</td>
+                <td class='accType'>guest</td>
+            </tr>    
+            <tr>
+                <td rowspan="1" class='dataPos'>4</td>
+                <td class='user'>NiceManCool</td>
+                <td class='pass'>passwwrd123</td>
+                <td class='transactions'>0</td>
+                <td class='accType'>admin</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class='dataPos'>5</td>
+                <td class='user'>johnnyman</td>
+                <td class='pass'>cakepointss</td>
+                <td class='transactions'>20</td>
+                <td class='accType'>member</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class='dataPos'>6</td>
+                <td class='user'>cantremember</td>
+                <td class='pass'>danielspants222</td>
+                <td class='transactions'>35</td>
+                <td class='accType'>member</td>
+            </tr>
+        </table>
+        <br><br>
+    </div>
+</body>
+</html>

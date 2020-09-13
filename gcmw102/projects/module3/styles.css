@@ -1,0 +1,227 @@
+body {
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background-color: rgba(67,0,0,1.00);
+	line-height: 20px;
+	padding: 0px;
+	background-position: right top;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+nav {
+	position: absolute;
+	top: 0px;
+	background-color:rgba(255,255,255,1.00);
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	height: 50px;
+	width: 100%;
+	font-size: 20px;
+	border-bottom: 3px solid #600;
+}
+nav ul {
+	width: 950px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	height: 30px;
+	padding: 20px 5px 5px 5px;
+}
+nav li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+nav a:hover {
+	color: #600;
+	text-decoration: none;
+	background-image: url(images/clock.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 30px;
+	padding: 20px 5px 5px 5px;
+}
+header {
+	background-image: url(images/background-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 360px;
+	width: 780px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px solid rgba(102,0,0,1.00);
+	position: relative;
+}
+header h1 {
+	width: 400px;
+	color: #FFF;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	padding-top: 250px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+}
+blockquote {
+	background-color: rgba(255,255,255,0.80);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding: 15px 10px 15px 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	width: 250px;
+	height: 290px;
+	font-size: 13.5px;
+	line-height: 22px;
+	position: absolute;
+	top: 50px;
+	right: 60px;
+}
+blockquote p {
+	padding: 5px 0px 0px 30px;
+	text-align: left;
+	clear: both;
+	margin: 0px 5px 5px 0px;
+}
+blockquote p:first-of-type {
+	background-image: url("images/quote-open.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+blockquote p:last-of-type {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+cite {
+	font-style: italic;
+	margin-top: 0px;
+}
+#excerpt {
+	position: relative;
+	top: 0;
+	width: 750px;
+	margin: 0px auto 0px auto;
+	padding: 15px;
+	background-color: #FFF;
+}
+#excerpt h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 0px 0px 10px 0px;
+	margin: 10px 0px 0px 0px;
+	text-decoration: underline;
+}
+#excerpt h3 {
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 3px;
+	color: #600;
+	font-style: italic;
+}
+#excerpt p {
+	margin: 0px;
+	padding: 0px 10px 10px 0px;
+}
+abbr, acronym {
+	cursor: help;
+}
+#excerpt dl {
+	padding-left: 5px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#excerpt ol {
+	margin-top: 0px;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+#excerpt dt {
+	font-weight: bold;
+}
+#excerpt a {
+	color: #600;
+}
+#excerpt a:hover {
+	text-decoration: none;
+}
+#excerpt table {
+	border-collapse: collapse;
+	margin-right: 15px;
+	margin-left: 15px;
+	float: right;
+	border: thin dashed #660000;
+	width: 315px;
+}
+#excerpt caption {
+	font-size: 1.3em;
+	margin: 0px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	color: #600;
+	text-align: center;
+	border-top: thin dashed #660000;
+	border-left: thin dashed #660000;
+	border-right: thin dashed #660000;
+	font-weight: bold;
+}
+#excerpt th {
+	font-size: 1.1em;
+	text-align: center;
+	background-color: #5A1D15;
+	color: #FFF;
+	padding: 4px;
+	font-weight: normal;
+}
+#excerpt td {
+	border-bottom: 1px #DBBB79 dashed;
+	padding: 4px;
+	text-align: center;
+}
+footer {
+	height: 25px;
+	background-color: #FFF;
+	text-align: center;
+	font-size: 11px;
+	color: #8B8A8A;
+	padding: 0px;
+	bottom: 0px;
+	border-top: #CCC solid thin;
+	width: 780px;
+	margin: 0px auto 0px auto;
+	z-index: 1000;
+}
+footer p {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 5px;
+}
+footer a {
+	color: #660000;
+}
+footer a:hover {
+	text-decoration: none;
+}

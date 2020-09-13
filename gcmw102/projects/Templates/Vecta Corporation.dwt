@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Vecta Corporation</title>
+	<!-- TemplateEndEditable -->
+	<link href="../module9ec/css/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<div id='container'>
+	<div id='header'>
+		
+	</div>
+	
+	<div id='navigation'>
+		<a href='../module9ec/solutions.html'>Solutions</a>
+		<a href='../module9ec/aboutus.html'>About Us</a>
+		<a href="mailto:VectaCorporation@gmail.com">Email Us</a>
+	</div>
+	<!-- TemplateBeginEditable name="EditRegion1" -->
+	<div id='content'>
+	  <h2>Welcome</h2>
+	  <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience. </p>
+	  <h2>Our Solutions</h2>
+	  <h3>vProspect 2.0</h3>
+	  <p>Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience. </p>
+	  <h3>vConvert 2.0</h3>
+	  <p>Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level. </p>
+	  <h3>vRetain 1.0</h3>
+	  <p>Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues. </p>
+	  <a href='#'>Back to top</a> </div>
+	<!-- TemplateEndEditable -->
+	<div id='footer'>
+	  <p>&copy; Copyright 2016 Vecta Corporation</p>
+	</div>
+</div>
+</html>

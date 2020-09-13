@@ -1,0 +1,536 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 120%;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 120%;
+}
+
+
+#nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    position: fixed;
+    width: 100%;
+}
+
+#nav img {
+    max-width: 150px;
+}
+
+#nav ul {    
+    margin: auto;
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline-block; 
+    padding: 0px 30px;
+}
+
+#logIn {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    text-align: center;
+    background-color: #007CFF;
+    transition: 0.5s;
+    margin-right: 1%;
+}
+
+#logIn:hover {
+    background-color: rgb(0, 167, 209);
+    color: black;
+}
+
+.textLink {
+    position: relative;
+    bottom: 1em;
+}
+
+.textLink:hover {
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    padding-bottom: 2%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+#contentContainer {
+    background: url('projectimages/abstractart.jpg') no-repeat fixed center top;
+    background-size: cover;
+    margin-bottom: -10%;
+    padding-bottom: 8%;
+    padding-top: 13%;
+    box-shadow: black 3px 3px 53px;
+}
+
+#content {
+    width: 70%;
+    height: auto;
+    padding: 5%;
+    background-color: white;
+    margin: auto;
+    background-size: cover;
+    background: url('projectimages/ladysitting.png') top left no-repeat;
+}
+
+#homeTop {
+    display: flex;
+    color: white;
+}
+
+#homeWelcome span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#homeWelcome h1 {
+    font-size: 350%;
+    line-height: 100%;
+    padding-bottom: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#homeWelcome p {
+    font-size: 150%;
+}
+
+.signUpButton {
+    margin-top: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 140%;
+    border-radius: 20px;
+    background-color: #00C9FF;
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    transition: 0.5s;
+}
+
+.signUpButton:hover {
+    background-color: #007CFF;
+}
+
+#homeWelcomeImage img {
+    width: 120%;
+    margin-top: 30%;
+}
+
+#homeInfoImage img {
+    width: 80%;
+    box-shadow: -16px -35px rgb(0, 29, 58);
+    margin-top: 15%;
+
+}
+
+#homeMiddle {
+    display: flex;
+    padding-top: 10%;
+}
+
+#homeInfo {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+}
+
+#homeInfo h1 {
+    font-size: 150%;
+    padding-bottom: 5%;
+}
+
+#homeMiddle2 {
+    display: flex;
+    padding-top: 20%;
+}
+
+#homeInfo2 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+}
+
+#homeInfo2 h1 {
+    font-size: 150%;
+    padding-bottom: 5%;
+}
+
+
+#homeInfoImage2 img {
+    width: 80%;
+    box-shadow: 16px -35px rgb(1, 50, 100);
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+#homeMiddle3 {
+    display: flex;
+    padding-top: 20%;
+}
+
+#homeInfo3 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+}
+
+#homeInfo3 h1 {
+    font-size: 150%;
+    padding-bottom: 5%;
+}
+
+#homeInfoImage3 img {
+    width: 80%;
+    box-shadow: -16px -35px rgb(0, 37, 73);
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+#homeMiddle4 {
+    display: flex;
+    padding-top: 20%;
+}
+
+#homeInfo4 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+}
+
+#homeInfo4 h1 {
+    font-size: 150%;
+    padding-bottom: 5%;
+}
+
+#homeInfoImage4 img {
+    width: 80%;
+    box-shadow: 16px -35px rgb(0, 19, 38);
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+#homeBottom {
+    text-align: center;
+}
+
+#homeBottom input {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+    border-radius: 30px;
+    background-color: #00C9FF;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    transition: 0.5s;
+    margin-bottom: 2%;
+}
+
+#homeBottom input:hover {
+    background-color: #007CFF;
+}
+
+#contentOther {
+    background-color: white;
+    width: 70%;
+    height: auto;
+    padding: 5%;
+    margin: auto;
+}
+
+#leaderboards {
+    text-align: center;
+    display: block;
+    font-size: 150%;
+}
+
+#leaderboards td {
+    margin: 10%;
+    padding: 1%;
+}
+
+#leaderboards tr:nth-child(2n) {
+    background-color: rgba(0, 90, 181, 0.2);
+}
+
+#leaderboards tr:nth-child(2) {
+    color: green;
+}
+
+#leaderboards tr:nth-child(3) {
+    color: blue;
+}
+
+
+#leaderboards tr:nth-child(4) {
+    color: red;
+}
+
+#leaderboards table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+#contests {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+#contests span {
+    padding: 5%;
+}
+
+#contests span:nth-child(2) {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+
+#contests span:nth-child(1) {
+    font-size: 120%;
+}
+
+
+#contests span:nth-child(3) {
+    font-size: 120%;
+}
+
+#contests p {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 120%;
+}
+
+#contests img {
+    margin: auto;
+    width: 95%;
+}
+
+#contestsBottom {
+    display: flex;
+    padding-top: 10%;
+}
+
+#submissions img {
+    width: 90%;
+}
+
+.comments {
+    padding-left: 35%;
+}
+
+.postInfo {
+    width: 7%;
+    padding-left: 1%;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.postInfo p {
+    color: black;
+    padding-top: 20%;
+    padding-left: 5%;
+}
+
+.user {
+    margin-left: 650%;
+    text-align: right;
+}
+
+#upload {
+    width: 30%;
+    text-align: center;
+}
+
+#upload input {
+    font-size: 150%;
+}
+
+#upload img {
+    width: 50%;
+}
+
+#submitButton {
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#shop {
+    display: flex;
+    padding: auto;
+    margin-bottom: 8%;
+}
+
+.shopItem {
+    width: 25%;
+    text-align: center;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopItem h4 {
+    padding-top: 5%;
+}
+
+.shopItem img {
+    width: 50%;
+}
+
+.reviews {
+    color: gray;
+    display: flex;
+}
+
+.reviews p {
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.purchase {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+    background-color: lightgray;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    transition: 0.5s;
+    border: none;
+}
+
+.purchase:hover {
+    background-color: #007CFF;
+}
+
+#footerContainer {
+    overflow: hidden;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.dot {
+    height: 2500px;
+    width: 2500px;
+    margin-left: -850px;
+    background-color: #00C9FF;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: black 3px 3px 53px;
+}
+
+.dotSmall {
+    height: 50px;
+    width: 50px;
+    margin-left: 92%;
+    background-color: #00C9FF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -25%;
+    box-shadow: black 3px 3px 13px;
+}
+
+.dotMedium {
+    height: 100px;
+    width: 100px;
+    margin-left: 80%;
+    background-color: #00C9FF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -22%;
+    box-shadow: black 3px 3px 23px;
+}
+
+#footer {
+    position: relative;
+    top: 18em;
+    bottom: 0;
+    color: white;
+    font-size: 140%;
+    display: block;
+}
+
+#getStarted {
+    padding-left: 5%; 
+    display: inline-block;
+    width: 200px;
+}
+#getStarted p:last-child {
+    padding-left: 1em;
+    margin-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    width: auto;
+    text-align: center;
+    background-color: #007CFF;
+}
+
+#footerNav ul {
+    width: 200px;
+    list-style-type: none;
+}
+
+#footerNav {
+    text-align: center;
+    display: flex;
+}
+
+#topFooter {
+    display: flex;
+}
+
+#subFooter {
+    margin-top: 1em;
+    display: flex;
+    padding-left: 5%;
+}
+
+#subFooter p {
+    margin-right: 10%;
+}

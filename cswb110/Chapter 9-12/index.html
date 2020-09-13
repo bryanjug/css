@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--week 10 - added meta tag and language in html tag-->
+<html lang='en'>
+<head>
+	<title>JavaJam Coffee House: The Best Java Around!</title>
+	<meta charset='UTF-8'>
+	<link href="javajam_custom.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div id='wrapper'>
+		<header>
+			<h1>Bryan Jug's CSWB 110 Work</h1>
+		</header>
+		<!--links to other files in website Week 1-->
+		<nav class='navigation'>
+			<ul> <!--week 8 navigation of files moved to top of page-->
+				<li><a href='homework.html'>Chapter 1</a></li>
+				<li><a href='chapter2/index.html'>Chapter 2</a></li>
+				<li><a href='chapter3/index.html'>Chapter 3</a></li>
+				<li><a href='chapter4/index.html'>Chapter 4</a></li>
+				<li><a href='homework.html'>Chapter 5</a></li>
+				<li><a href='chapter6/index.html'>Chapter 6</a></li>
+				<li><a href='chapter7/index.html'>Chapter 7</a></li>
+				<li><a href='chapter8/index.html'>Chapter 8</a></li>
+				<li><a href='chapter9/index.html'>Chapter 9</a></li>
+				<li><a href='homework.html'>Chapter 10</a></li>
+				<li><a href='chapter11/index.html'>Chapter 11</a></li>
+				<li><a href='chapter12/index.html'>Chapter 12</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+			<div> <!--Picture of scooby here - Week 3-->
+				<div id='codingideas'>
+				</div>
+				<section id='tablecontent'>
+				<!--week 8 removed content and added in a table-->
+					<table>
+						<tr>
+							<th>Interests and Hobbies</th>
+							<td>Some things that I enjoy are snow boarding, going to the beach, video games, 
+					eating, and programming. I also really love dogs and my previous career choice was 
+					going to be a Cyber Security Specialist.</td>
+						</tr>
+						<tr>
+							<th>Why programming?</th>
+							<td>I find programming to be sort of adventurous and complex, it could almost be like 
+					solving a puzzle or a maze. But once you finish that maze, there's no better feeling 
+					than putting your mind to the test. With these problem solving skills, we could 
+					actually solve real world problems!</td>
+						</tr>
+						<tr>
+							<th>Current Experience:</th>
+							<td>
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>MYSQL</li>
+									<li>Dream Weaver (in a class for it currently!)</li>
+									<li>JavaScript (in a class for it currently!)</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th>What I hope to learn more of in the future:</th>
+							<td>
+								<ul>
+									<li>MEAN Stack</li>
+									<li>React</li>
+									<li>Javascript Algorithms and Data Structures</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</section>
+				<section id='contact'>
+				<!--week 9 - contact form on your site that uses email as the submission method. 
+				text field, a radio button field, and a drop down list. -->
+					<h2>Contact Me</h2>
+					<form method='post' action='mailto:jugbryan@gmail.com'>
+						<div class='formItem'>
+							<label for='myEmail'>Email:</label>
+							<input type='email' name='myEmail' id='myEmail' required>
+						</div>
+						
+						<div class='formItem'>
+							<label for='myText'>My Text:</label>
+							<textarea rows='2' cols='20' name='myText' id='myText' required></textarea>
+						</div>
+						
+						<div class='formItem'>
+							<label for='myList'>Select List:</label>
+							<select id='myList' name='myList' required>
+								<option value=''>Send Now</option>
+								<option value=''>Send after 1 hour</option>
+								<option value=''>Send after 1 day</option>
+							</select>
+						</div>
+						<div class='formItem'>
+							<input type='submit' value='Send Email' id='mySubmit'>
+						</div>
+						
+					</form>
+				</section>
+				<!--week 11 - added music players-->
+				<!--week 12 - turned music options into a shop-->
+				<section id='musicShop'>
+					<h2>My Music Suggestions</h2>
+					<div class='musicItem'>
+						<audio controls>
+							<source src='audio/love.mp3' type='audio/mpeg'>
+							Your browser does not support audio tag
+						</audio>
+						<form method='post' action='https://www.youtube.com/watch?v=_BPVtw6oRno'>
+							<input type='submit' value='Play on YouTube'>
+						</form>
+					</div>
+					<div class='musicItem'>
+						<audio controls>
+							<source src='audio/us.mp3' type='audio/mpeg'>
+						</audio>
+						<form method='post' action='https://www.youtube.com/watch?v=WOuI4OqJfQc'>
+							<input type='submit' value='Play on YouTube'>
+						</form>
+					</div>
+					<div class='musicItem'>
+						<audio controls>
+							<source src='audio/got.mp3' type='audio/mpeg'>
+						</audio>
+						<form method='post' action='https://www.youtube.com/watch?v=KDTXljIqxRE'>
+							<input type='submit' value='Play on YouTube'>
+						</form>
+					</div>
+				</section>
+			</div>
+		</main>
+		
+		<footer>
+			<p>CopyRight &#169; 2018 JavaJam Coffee House<br>
+			<a href='mailto:jugbryan@gmail.com'>jugbryan@gmail.com</a></p>
+		</footer>
+	</div>
+</body>
+</html>

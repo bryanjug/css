@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment for Basic Layout and Positioning</title>
+    <style>
+        #container {
+            border: 3px solid #000000;
+            border-radius: 10px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+        }
+        body {
+            background-color: darkslateblue;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            background-image: url("https://cdn.wallpapersafari.com/37/78/uFsVOC.jpg");
+            color: white;
+            background-size: 100% 100%;
+        }
+        #columns {
+            display: table;
+        }
+        #column-1 {
+            font-size: 18px;
+            display: table-cell;
+            width: 30%;
+            background-position: center;
+            background-size: 150%;
+            border-radius: 5px 0px 0px 5px;
+            background-image: url("https://images.fineartamerica.com/images/artworkimages/medium/1/kenolio-beach-hawaiian-coconut-palm-trees-kihei-maui-hawaii-sharon-mau.jpg");
+        }
+        #column-1 ul {
+            color: white;
+            list-style-type: none;
+        }
+        #column-2 {
+            display: table-cell;
+            width: auto;
+            padding-left: 10px;
+        }
+        footer {
+            text-align: center;
+            background-color:midnightblue;
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            Welcome! This is my Hawaiian Inn!
+        </header>
+
+        <div id="columns">
+            <section id="column-1">
+                <nav>
+                    <ul>
+                        <li><a href="Assignment04.html">Home</a></li>
+                        <li><a href="Assignment04.html">About Us</a></li>
+                        <li><a href="Assignment04.html">Shop</a></li>
+                        <li><a href="Assignment04.html">Trips</a></li>
+                        <li><a href="Assignment04.html">Contact Us</a></li>
+                    </ul>    
+                </nav>
+            </section>
+            <section id="column-2">
+                <h2>
+                    Find your dreams at our Hawaii Inn House
+                </h2>
+                <p>
+                    We welcome everyone to try our catering services from the local island favorites!
+                </p>
+                <h2>Shop</h2>
+                <p>
+                    From gift cards to t-shirts and more, give that special person exactly what they want with some tasty goods!
+                </p>
+            </section>
+        </div>
+        <footer>
+            Don't miss out! Copyright &copy; jugbryan@gmail.com
+        </footer>
+    </div>
+</body>
+</html>

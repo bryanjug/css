@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TemplateEndEditable -->
+<title>Sassy Cupcakes Gourmet Bakery</title>
+<link href="../simulation2/style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+
+<div id="header">
+  <img src="../simulation2/images/sassy-logo.png" width="301" height="171" alt="Sassy Cupcakes Gourmet Bakery" />
+</div>
+<div id="container">
+  <div id="left_column">
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+		<li><a href="cupcakes-everyday.html">Everyday Favorites</a></li>
+		<li><a href="cupcakes-weekly.html">Flavors of the Week</a></li>
+		<li><a href="custom-cakes.html">Custom Cakes</a></li>
+		<li><a href="special-events.html">Special Events</a></li>
+		<li><a href="join-the-club.html">Join the Club</a></li>
+    </ul>
+  </div>
+<div id="right_column"><!-- TemplateBeginEditable name="Page Content" -->
+	<p>content</p>
+<!-- TemplateEndEditable --></div>
+  <div id="footer">
+    Copyright ©  <a href="../simulation2/index.html">Sassy Cupcakes Gourmet Bakery</a></div>
+</div>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,408 @@
+/*week 11 - */
+audio {
+	display: block;
+	margin-top: 1em;
+}
+
+/*week 9 - adding form support*/
+form {
+	padding: 2em;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+#mySubmit {
+	margin-left: 9.5em;
+}
+/* week 9 - adding padding to bottom of form*/
+#herojobs {
+	height: 250px;
+	background-image: url('../images/herojobs.jpg');
+	background-size: 100% 100%;
+	margin-bottom: 10%;
+}
+
+/*week 6 - universal unit*/
+* {
+	box-sizing: border-box;
+}
+/*Week 4 - PERSONAL pages moved*/
+/*Week 2 - set entire website background color*/
+body { 
+	background-image: url('../images/background.gif');
+	color: #221811;
+	font-family: Arial;
+}
+/*week 4 - changed image url to fit to filezilla*/
+header {
+	background-image: url('../images/javajamlogo.jpg');
+	background-repeat: no-repeat;
+	height: 150px;
+	background-color: #D2B48C;
+}
+
+h1 {
+	padding-top: 45px;
+	padding-left: 220px;
+	font-size: 3em;
+}
+/*week 6 - added border and indent next to title*/
+h4 {
+	background-color: #D2B48C;
+	padding-left: .5em;
+	padding-bottom: .25em;
+	padding-top: .25em;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border-bottom: 3px solid gray;
+	padding-bottom: 0;
+	clear: left;
+}
+
+nav {
+	margin-left: 1em;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	font-size: 1.5em;
+	width: 200px;
+	float: left;
+}
+/*week 6 -changed padding bottom to make look better*/
+footer {
+	font-size: small;
+	background-color: #D2B48C;
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 0; /*removed padding to make look like example*/
+	border-top: 2px #221811;
+}
+/*Week 3 - made entire page centered and colored with added wrapper ID*/
+#wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FEF6C2;
+	min-width: 900px;
+	max-width: 1280px;
+	box-shadow: 5px 10px gray;
+	background-color: #231814;
+}
+
+nav a { /*Week 4 - removed underlined links in navigation*/
+	text-decoration: none;
+}
+
+.details { /*Week 4 - gave space to elements in music.html*/
+	padding-left: 20%;
+	padding-right: 20%;
+	overflow: auto;
+}
+/*week 6 - negative margin-bottom removes black space under main*/
+main { /*Week 4 - gives spacing around elements in main*/
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 2em;
+	padding-top: 0;
+	margin-left: 200px;
+	background-color: #FEF6C2;
+	margin-bottom: -20px;
+}
+
+img { /*Week 4 - gives every image spacing*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*Week 6 - added no repeat to remove repeat images when browser is resized*/
+#heroroad {
+	background-image: url('../images/heroroad.jpg');
+	background-size: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+}
+
+#heromugs {
+	background-image: url('../images/heromugs.jpg');
+	background-size: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+}
+
+#heroguitar {
+	background-image: url('../images/heroguitar.jpg');
+	background-size: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+}
+/*Week 6 - navigation colors*/
+nav :link {
+	color: #FEF6C2;
+}
+
+nav :visited {
+	color: #D2B48C;
+}
+
+nav :hover {
+	color: #CC9933;
+}
+
+nav ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.floatleft {
+	float: left;
+	clear: left;
+	padding-bottom: 2em;
+	padding-right: 2em; 
+}
+
+main h1, h2, h3, h4, p, ul, dt, dd, dl {
+	padding-left: 3em;
+	padding-right: 2em;
+}
+
+header nav, main, footer {
+	display: block;
+}
+
+/*Chapter 8 applying color and placement of table*/
+table {
+	width: 90%;
+	border-spacing: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Chapter 8 - Menu page table items*/
+
+td {
+	padding: 10px;
+}
+
+th {
+	text-align: center;
+}
+
+tr:nth-of-type(1), tr:nth-of-type(3), tr:nth-of-type(5) {
+	background-color: #D2B48E
+}
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+/*Chapter 7 - converted to tablet size*/
+/*Chapter 7 - selects tablet viewport size - Media Query*/
+@media only screen and (max-width: 1024px) {
+	body {
+		margin: 0;
+		background-image: none;
+	}
+	
+	#wrapper {
+		width: auto;
+		min-width: 0;
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+	}
+	
+	header {
+		border-bottom: 5px solid #FEF6C2;
+	}
+	
+	h1 {
+		margin-top: 0;
+		margin-bottom: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-size: 2.5em;
+	}
+	
+	nav {
+		float: none;
+		width: auto;
+		padding-top: 0;
+		margin: 10px;
+		font-size: 1.3em;
+	}
+	
+	nav li {
+		display: inline-block;
+	}
+	
+	nav a {
+		padding: 1em;
+		width: 8em;
+		font-weight: bold;
+		border-style: none;
+	}
+	
+	nav ul {
+		padding: 0;
+		margin: 0;
+	}
+	
+	#heroroad {
+		padding: 0;
+		margin: 0;
+	}
+	
+	#heromugs {
+		padding: 0;
+		margin: 0;
+	}
+	
+	#heroguitar {
+		padding: 0;
+		margin: 0;
+	}
+	
+	main {
+		margin: 0;
+		font-size: 90%;
+	}
+}
+/*Chapter 7 - converted to mobile*/
+@media only screen and (max-width: 768px) {
+	#herojobs {
+		display: none;
+	}
+	
+	header {
+		background-image: url('../images/javajammini.jpg');
+		height: 128px;
+	}
+	
+	h1 {
+		font-size: 2em;
+		text-align: center;
+		padding-left: 0;
+	}
+	
+	nav {
+		margin: 0;
+		padding-left: 0;
+	}
+	
+	nav a {
+		display: block;
+		padding: 0.2em;
+		width: auto;
+		border-bottom: 1px solid #FEF6C2;
+	}
+	
+	nav li {
+		display: block;
+	}
+	
+	main {
+		padding-top: 1px;
+	}
+	
+	h2 {
+		padding-top: 0.5em;
+		padding-right: 0;
+		padding-bottom: 0;
+		padding-left: 3.5em;
+		margin-right: 2.5em;
+	}
+	
+	.details {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	#heroroad {
+		background-image: none;
+		height: auto;
+	}
+	
+	#heromugs {
+		background-image: none;
+		height: auto;
+	}
+	
+	#heroguitar {
+		background-image: none;
+		height: auto;
+	}
+	
+	.floatleft {
+		padding-left: 0.5em;
+		padding-right: 0.5em
+	}
+	
+	#mobile {
+		display: inline;
+	}
+	
+	#desktop {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Pain No Gain || Log in / Sign up</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="style_new.css" rel="stylesheet">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src='show_width.js'></script>
+</head>
+<body>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-12'>
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                    <a class="navbar-brand" href="#">
+                        <img src='images/fist.png' class='img-fluid fist' alt='NoPainNoGain Logo Fiery Fist'>
+                        <img src='images/logo.png' class='img-fluid logo' alt='NoPainNoGain Logo'>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav navLinks">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Classes</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">HIIT</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Join</a>
+                            </li>
+                        </ul>
+                        <div class='row navContact'>
+                            <div class='col-12'>
+                                <img src='images/socialmedia.png' class='img-fluid social' alt="NoPainNoGain's Social Platform Links">
+                            </div>
+                            <div class='col-12 navContact2'>
+                                <p><img src="images/phone.png" class='phone' alt="NoPainNoGain's phone number icon">
+                                999-555-1111
+                                <img src='images/email.png' class='email' alt="NoPainNoGain's email address icon">
+                                NoPainNoGain@yahoo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class='row loginContainer'>
+            <div class='col-10 col-md-6 login m-auto'>
+                <img src='images/fist.png' class='img-fluid fistLogin'>
+                <img src='images/logo_inverse.png' class='img-fluid logoLogin'>
+                <h4>Welcome back!</h4>
+                <p>
+                    Sign In To Access Your Account
+                </p>
+                <form>
+                    <input type="text" value='Username' class='username' id='username'>
+                    <br/>
+                    <input type="password" value='Password' class='password' id='password'>
+                    <br/>
+                    <input type="checkbox" id="remember" name="remember" value="remember">
+                    <label for="remember"> Remember Me</label>
+                    <input type="submit" id='signIn' value='SIGN IN'>
+                    <p class='signUp'>New User? <a href='#'>Sign Up</a></p>
+                </form>
+            </div>
+        </div>
+        <div class='row footer' id='footer'>
+            <div class='col-12 col-md-6 footerText'>
+                <h4>
+                    Getting in touch is easy!
+                </h4>
+                <p>
+                    Phone: 999-888-7777
+                </p>
+                <p>
+                    Email: NoPainNoGain@gmail.com
+                </p>
+                <p>Message us quickly by using the form to the right. Our team will get back to you as soon as possible. If you need faster assistance, make sure to call us with the number above.</p>
+            </div>
+            <div class='col-12 col-md-6 footerForm'>
+                <form>
+                    <input type="text" value='Name' class='contactInput' id='contactName'>
+                    <br/>
+                    <input type="email" value='Email' class='contactInput' id='contactEmail'>
+                    <br/>
+                    <input type="tel" value='Telephone' class='contactInput' id='contactTelephone'>
+                    <br/>
+                    <input type="text" value='Comment' class='contactInput' id='contactComment'>
+                    <br/>
+                    <input type="submit" id='contactSubmit'>
+                </form>
+            </div>
+            <div class='col-12 footerNav'>
+                <p><a href='#'>Home</a> | <a href='#'>Classes</a> | <a href='#'>HIIT</a> | <a href='#'>About</a> | <a href='#'>Join</a></p>
+            </div>
+            <div class='col-12 copyRight'>
+                <p>Copyright &copy; <a href='mailto:bryanjug@yahoo.com'>BryanJug@yahoo.com</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

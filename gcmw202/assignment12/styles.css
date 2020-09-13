@@ -1,0 +1,171 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 98%;
+	margin: auto;
+}
+
+header {
+	height: 110px;
+	position: relative;
+	color: white;
+}
+
+header span {
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	background: url(images/SonyLogo.gif) no-repeat;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	width: 100%;
+	position: absolute;
+	margin-top: -4em;
+	padding-left: 1em;
+}
+
+nav li {
+	padding-right: 5em;
+}
+
+nav a {
+	font-family: Verdana;
+	color: #7f9fb1;
+	font-size: 0.75em;
+	font-weight: 400;
+	line-height: 1.2;
+	text-decoration: none;
+	background: url("images/Plus.gif") no-repeat;
+	background-position: left center;
+	padding-left: 1em;
+}
+
+nav a:hover {
+	color: black;
+	background: url("images/PlusOver.gif") no-repeat;
+	background-position: left center;
+	padding-left: 1em;
+}
+
+#welcome {
+	height: 100%;
+	position: relative;
+	color: white;
+	margin-top: -2.5em;
+}
+
+#welcome span {
+	position: absolute;
+	width: 100%;
+	height: 50em;
+	background: url("images/Welcome.jpg") no-repeat;
+}
+
+#buttons {
+	margin-top: 16.4em;
+	position: relative;
+	color: white;
+	width: 100%;
+}
+
+#buttons ul {
+	display: flex;
+	list-style-type: none;
+	height: 186px;
+	padding: 0;
+	margin: 0;
+}
+
+#see {
+	position: relative;
+	width: 233px;
+}
+
+#see span {
+	position: absolute;
+	width: 233px;
+	height: 186px;
+	background: url("images/See.jpg") no-repeat;
+}
+
+#hear {
+	position: relative;
+	width: 232px;
+}
+
+#hear span {
+	position: absolute;
+	width: 232px;
+	height: 186px;
+	background: url("images/Hear.jpg") no-repeat;
+}
+
+#play {
+	position: relative;
+	width: 232px;
+}
+
+#play span {
+	position: absolute;
+	width: 232px;
+	height: 186px;
+	background: url("images/Play.jpg") no-repeat;
+}
+
+#shop {
+	position: relative;
+	width: 17%;
+}
+
+#shop span {
+	position: absolute;
+	width: 233px;
+	height: 186px;
+	background: url("images/Shop.jpg") no-repeat;
+}
+
+footer {
+	font-family: Verdana;
+	color: #565656;
+	font-size: 0.65em;
+	font-weight: 400;
+	line-height: 2;
+	position: absolute;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+footer ul {
+	display: flex;
+	list-style-type: none;
+}
+
+footer li {
+	padding-right: 1em;
+}
+
+footer a {
+	text-decoration: none;
+	border-right: solid thin black;
+	padding-right: 1em;
+	color: #446df0;
+}
+
+.last a {
+	border-right: none;
+}
+
+.veryLast {
+	border-left: solid thin black;
+	padding-left: 1em;
+}
+footer a:hover {
+	color: black;
+}

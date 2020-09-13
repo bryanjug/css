@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>design</title>
+<!-- TemplateEndEditable -->
+<link href="../museum-styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<header>
+  <nav>
+    <p><a href="../about.html">About the Getty</a></p>
+    <p><a href="../traveling-exhibits.html">Traveling Exhibits</a></p>
+    <p><a href="../permanent-exhibits.html">Permanent Exhibits</a></p>
+  </nav>
+    <img src="../images/getty-logo.png" width="601" height="188" alt="The Getty Foundation"/></header>
+	<div id="page-content">
+	  <section id="main-copy"></section>
+	  <section id="sidebar"></section>
+    </div>
+<footer>Site design by Against the Clock, Inc.</footer>
+</body>
+	
+</html>

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+table {
+	width: 700px;
+	margin: 0 auto 0 auto;
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	}
+th {
+	text-align: left;
+	background-color:rgb(253,239,203);
+	padding: 3px;
+	margin-top: 10px;
+	border-bottom: thin solid #3004C4;
+}
+td {
+	padding: 3px;
+	margin-top: 10px;
+	border-bottom: thin solid #3004C4;
+}
+p {
+	text-align: center;
+}
+.dark-background {
+	background-color: rgb(248,198,63);
+}

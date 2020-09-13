@@ -1,0 +1,82 @@
+/*Week 4 - PERSONAL pages moved*/
+/*Week 2 - set entire website background color*/
+body {
+	color: #221811;
+	font-family: Arial;
+	background-image: url('../images/background.gif');
+}
+/*week 4 - changed image url to fit to filezilla*/
+header {
+	height: 150px;
+	background-image: url('../images/javajamlogo.jpg');
+	background-repeat: no-repeat;
+	background-color: #D2B48C;
+}
+/*Week 2 - set entire title, nav, p contents*/
+h1 {
+	padding-top: 45px;
+	padding-left: 220px;
+	font-size: 3em;
+}
+
+h4 {
+	background-color: #D2B48C;
+	padding-left: .5em;
+	padding-bottom: .25em;
+	padding-top: .25em;
+	font-size: 1.2em;
+}
+
+nav {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	font-size: 1.5em;
+}
+
+footer {
+	font-size: small;
+	background-color: #D2B48C;
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 10px;
+	border-top: 2px #221811;
+}
+/*Week 3 - made entire page centered and colored with added wrapper ID*/
+#wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FEF6C2;
+	min-width: 900px;
+	max-width: 1280px;
+	box-shadow: 5px 10px gray;
+}
+
+nav a { /*Week 4 - removed underlined links in navigation*/
+	text-decoration: none;
+}
+
+.details { /*Week 4 - gave space to elements in music.html*/
+	padding-left: 20%;
+	padding-right: 20%;
+	
+}
+
+main { /*Week 4 - gives spacing around elements in main*/
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	display: block;
+}
+
+img { /*Week 4 - gives every image spacing*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+
+
