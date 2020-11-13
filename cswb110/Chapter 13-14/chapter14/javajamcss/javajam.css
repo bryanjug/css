@@ -232,6 +232,50 @@ tr:nth-of-type(1), tr:nth-of-type(3), tr:nth-of-type(5) {
 	display: inline;
 }
 
+@media only screen and (max-width: 2883px) {
+	main {
+		font-size: 220%;
+	}
+	.navigation {
+		font-size: 250%;
+	}
+	header {
+		font-size: 100%;
+	}
+	footer {
+		font-size: 180%;
+	}
+	.floatleft {
+		width: 60%;
+		height: 60%;
+	}
+	audio {
+		width: 100%;
+	}
+	#myName {
+		width: 60%;
+		font-size: 100%;
+	}
+	#myEmail {
+		width: 60%;
+		font-size: 100%;
+	}
+	#myExperience {
+		width: 60%;
+		padding-bottom: 30%;
+		font-size: 100%;
+	}
+	#mySubmit {
+		font-size: 100%;
+	}
+	.shopImage {
+		width: 40%;
+	}
+	.purchase {
+		font-size: 100%;
+	}
+}
+
 @media only screen and (max-width: 1889px) {
 	main {
 		font-size: 150%;
