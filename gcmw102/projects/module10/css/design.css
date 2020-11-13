@@ -104,6 +104,9 @@ p {
 		height: 100%;
 		width: 100%;
 	}
+	.footer {
+		font-size: 150%;
+	}
 }
 
 @media (min-width: 2560px){
@@ -123,5 +126,8 @@ p {
 	.blvdImage {
 		height: 918px;
 		width: 1676px;
+	}
+	.footer {
+		font-size: 200%;
 	}
 }
