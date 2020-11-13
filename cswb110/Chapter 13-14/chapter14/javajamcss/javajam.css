@@ -232,6 +232,182 @@ tr:nth-of-type(1), tr:nth-of-type(3), tr:nth-of-type(5) {
 	display: inline;
 }
 
+@media only screen and (max-width: 1889px) {
+	main {
+		font-size: 150%;
+	}
+	.navigation {
+		font-size: 180%;
+	}
+	header {
+		font-size: 100%;
+	}
+	footer {
+		font-size: 120%;
+	}
+	.floatleft {
+		width: 50%;
+		height: 50%;
+	}
+	audio {
+		width: 100%;
+	}
+	#myName {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myEmail {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myExperience {
+		width: 40%;
+		padding-bottom: 10%;
+		font-size: 100%;
+	}
+	#mySubmit {
+		font-size: 100%;
+	}
+	.shopImage {
+		width: 40%;
+	}
+	.purchase {
+		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 1416px) {
+	main {
+		font-size: 140%;
+	}
+	.navigation {
+		font-size: 170%;
+	}
+	header {
+		font-size: 100%;
+	}
+	footer {
+		font-size: 110%;
+	}
+	.floatleft {
+		width: 50%;
+		height: 50%;
+	}
+	audio {
+		width: 100%;
+	}
+	#myName {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myEmail {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myExperience {
+		width: 40%;
+		padding-bottom: 10%;
+		font-size: 100%;
+	}
+	#mySubmit {
+		font-size: 100%;
+	}
+	.shopImage {
+		width: 40%;
+	}
+	.purchase {
+		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 1259px) {
+	main {
+		font-size: 130%;
+	}
+	.navigation {
+		font-size: 160%;
+	}
+	header {
+		font-size: 100%;
+	}
+	footer {
+		font-size: 110%;
+	}
+	.floatleft {
+		width: 50%;
+		height: 50%;
+	}
+	audio {
+		width: 100%;
+	}
+	#myName {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myEmail {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myExperience {
+		width: 40%;
+		padding-bottom: 10%;
+		font-size: 100%;
+	}
+	#mySubmit {
+		font-size: 100%;
+	}
+	.shopImage {
+		width: 40%;
+	}
+	.purchase {
+		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 1181px) {
+	main {
+		font-size: 120%;
+	}
+	.navigation {
+		font-size: 150%;
+	}
+	header {
+		font-size: 100%;
+	}
+	footer {
+		font-size: 110%;
+	}
+	.floatleft {
+		width: 50%;
+		height: 50%;
+	}
+	audio {
+		width: 100%;
+	}
+	#myName {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myEmail {
+		width: 40%;
+		font-size: 100%;
+	}
+	#myExperience {
+		width: 40%;
+		padding-bottom: 10%;
+		font-size: 100%;
+	}
+	#mySubmit {
+		font-size: 100%;
+	}
+	.shopImage {
+		width: 40%;
+	}
+	.purchase {
+		font-size: 100%;
+	}
+}
+
 /*Chapter 7 - converted to tablet size*/
 /*Chapter 7 - selects tablet viewport size - Media Query*/
 @media only screen and (max-width: 1024px) {

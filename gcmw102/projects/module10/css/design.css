@@ -85,3 +85,43 @@ p {
 .feature-section:hover {
     max-height: 999px;
 }
+
+@media (min-width: 1440px){
+	p {
+		font-size: 150%;
+	}
+	h1 {
+		font-size: 300%;
+	}
+	.feature-section p {
+		font-size: 130%;
+	}
+	h2 {
+		font-size: 200%;
+		padding-bottom: 15%;
+	}
+	.blvdImage {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media (min-width: 2560px){
+	p {
+		font-size: 200%;
+	}
+	h1 {
+		font-size: 400%;
+	}
+	.feature-section p {
+		font-size: 200%;
+	}
+	h2 {
+		font-size: 200%;
+		padding-bottom: 15%;
+	}
+	.blvdImage {
+		height: 918px;
+		width: 1676px;
+	}
+}
